@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/say")
-public class sampleController {
+public class SampleController {
 
     // localhost:8080/say/hello/scaler
     @GetMapping("/hello/{name}")
