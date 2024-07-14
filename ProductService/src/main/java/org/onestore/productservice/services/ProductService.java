@@ -10,4 +10,12 @@ public interface ProductService {
 
     List<Product> getAllProducts();
 
+    Product createProduct(Product product);
+
+    Product updateProduct(long id, Product product);
+
+    Product deleteProduct(long id);
+
+    Product replaceProduct(long id, Product product);
+
 }
